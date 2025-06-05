@@ -53,9 +53,11 @@ It's crucial to note that each company in the embedded industry may have unique 
 
 The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
 
+<!-- markdownlint-disable MD028 -->
+
 > [!NOTE]
 > **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
- 
+
 > [!TIP]
 > To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
 >
@@ -70,6 +72,8 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 >
 > - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 > - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
+
+<!-- markdownlint-enable MD028 -->
 
 > [!IMPORTANT]  
 > **This repository is not affiliated with or financially supported by any content creator, publisher, or organization. We do not endorse or recommend any specific paid resources. Both free and paid resources are included to provide a range of options, allowing you to choose what best suits your needs and preferences.**
@@ -387,6 +391,7 @@ Mastering programming fundamentals and software development principles is essent
 - [🎞️💎 Udemy - Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
 - [📝 “Input-Driven” vs. Event-Driven State Machines](https://www.state-machine.com/input-driven-vs-event-driven-state-machines)
 - [📝 State Machines for Event-Driven Systems](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
+- [📘 Practical UML Statecharts in C/C++ by Miro Samek](https://www.amazon.sg/Practical-UML-Statecharts-Event-Driven-Programming/dp/0750687061)
 
 #### 🔵 Memory Management
 
@@ -443,6 +448,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🎞️ Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [🎞️ Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 - [📝 How to Use Inline Assembly Language in C Code](https://gcc.gnu.org/onlinedocs/gcc/Using-Assembly-Language-with-C.html)
+- [📘 Raspberry Pi Assembly Language Programming : ARM Processor Coding](https://www.amazon.com/Raspberry-Assembly-Language-Programming-Processor/dp/1484252861)
 
 #### 🔵 Python
 
@@ -862,6 +868,10 @@ Embedded system development often involves simulating or emulating hardware envi
 - [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
 - [🔗👶 Digital logic designer and circuit simulator designed for educational purposes](https://github.com/hneemann/Digital)
+- [🔗👶 EveryCircuit](https://everycircuit.com/)
+- [🔗👶 Circuit Simulator Applet](https://www.falstad.com/circuit/)
+- [🔗👶 Tinkercad](https://www.tinkercad.com/)
+- [🔗👶 Voltsim](https://www.voltsimulator.com/)
 
 #### 🔵 QEMU
 
@@ -1450,28 +1460,28 @@ _________________
 
 #### 🔵 Discrete Mathematics
 
-A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineers. 
+A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineers.
 
 _**Goal of learning Discrete Mathematics:**_ Embedded Systems Engineers should be able to grasp most of these information sooner or later based on their subspeciality; as it explains the scientific and theoretical basis of computer engineering (e.g., Coding Theory for Audio/Video Encoding/Decoding and Data Transmission - Automata Theory for event control and data transmission - Logic for digital circuit design and switching algebra - $$\Pi$$ Calculus and Automata Theory for Concurrency Modelling).
 
 _Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical mathematical basis of computer science, including but not limited to:
-* Logic (Propositional, Quantificational and Normal Forms).
-* Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
-* Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
-* Theory of combinatorics.
-* Matrix and Graph Theory.
-* Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
-* Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
-* Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
-* Coding Theory.
-* Division Theorem Modular Arithmetics (Parts of Number Theory).
 
+- Logic (Propositional, Quantificational and Normal Forms).
+- Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
+- Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
+- Theory of combinatorics.
+- Matrix and Graph Theory.
+- Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
+- Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
+- Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
+- Coding Theory.
+- Division Theorem Modular Arithmetics (Parts of Number Theory).
 - [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
 - [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
 - [📘💎 Switching and Finite Automata Theory, Cambrdige Press](https://dl.acm.org/doi/10.5555/1708070)
 - [📘💎 Discrete Mathematical Structures by Bernard Kolman](https://www.pearson.com/en-us/subject-catalog/p/discrete-mathematical-structures-classic-version/P200000006227/9780137538782?srsltid=AfmBOooBdohmNtq7Wu42tHwSt7lUma46hBmKjqk8XJ8NNI6sf2-4-1kg)
 - [📘💎 Invitation to Discrete Mathematics, Oxford University Press](https://global.oup.com/academic/product/invitation-to-discrete-mathematics-9780198570431?cc=eg&lang=en&)
-- [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108) 
+- [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108)
 
 ## History
 
